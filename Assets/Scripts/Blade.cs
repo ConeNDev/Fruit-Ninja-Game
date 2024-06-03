@@ -5,6 +5,7 @@ using UnityEngine;
 public class Blade : MonoBehaviour
 {
     private Rigidbody2D rb;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -24,4 +25,6 @@ public class Blade : MonoBehaviour
     
         rb.position=Camera.main.ScreenToWorldPoint(mousePos);
     }
+    
+    
 }
